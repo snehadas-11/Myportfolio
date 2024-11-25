@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyPortfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <a class="logo"><left><span>Welcome To </span> My Portfolio</a>&nbsp;
+    <nav class="navbar">
+      <a class="about" href="#about"><i class="fas fa-user"></i>About Me</a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="projects" href="#projects"><i class="fas fa-briefcase"></i>Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="contact" href="#contact"><i class="fas fa-envelope"></i>Contact Me</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    </nav>
+  </header>
+  <section class="section">
+    <div class="section__container">
+      <div class="content">
+        <p class="subtitle">Hello!!!</p><br>
+        <h1 class="title">
+          I'm <span>Sneha S Das<br />a</span> Trainee
+        </h1>
+        <p class="description"> Welcome to my  Trainee portfolio! I'm Sneha s das, a passionate trainee eager to learn and grow in the field of Web Development. My journey as a Trainee is driven by a commitment to learning, creativity, and building practical expertise. I thrive on challenges and opportunities to apply theoretical knowledge to real-world projects. This portfolio showcases my skills, projects, and dedication to building practical expertise while contributing value to the field.
+        </p>
+      </div>
+      <div class="image">
+        <img src="profile.jpg" alt="profile" />
+      </div>
+    </div>
+  </section>
+  <main>
+    <section id="about">
+      <h2 style="color:orangered">About Me</h2><br>
+      <p>As a trainee with a keen interest in learning and growing in the tech industry. My journey is fueled by curiosity, creativity, and a strong desire to turn ideas into functional and visually appealing websites. I enjoy tackling challenges, solving problems, and building hands-on experience through real-world projects. I believe in the power of continuous learning and thrive in environments that allow me to apply my knowledge while discovering new techniques and technologies. My goal is to grow as a developer and contribute meaningful, user-friendly solutions to the field.</p><br>
+      <div class="progress_container">
+        <button id="toggleSkillsBtn">My Skills</button>
+      <div id="progressBars" style="display: none;">
+        <div class="progress_item">
+          <h4 class="skill-title"><h3>Web Technologies</h3></h4>
+          <div class="progress_bar">
+            <div class="progress_per" data-text="70">70</div>
+          </div>
+        </div>
+        <div class="progress_item">
+          <h4 class="skill-title"><h3>Python</h3></h4>
+          <div class="progress_bar">
+            <div class="progress_per" data-text="80">80</div>
+          </div>
+        </div>
+        <div class="progress_item">
+          <h4 class="skill-title"><h3>SQL</h3></h4>
+          <div class="progress_bar">
+            <div class="progress_per" data-text="90">90</div>
+          </div>
+        </div>
+        <div class="progress_item">
+          <h4 class="skill-title"><h3>RDBMS</h3></h4>
+          <div class="progress_bar">
+            <div class="progress_per" data-text="85">85</div>
+          </div>
+        </div>
+        <div class="progress_item">
+          <h4 class="skill-title"><h3>Communication</h3></h4>
+          <div class="progress_bar">
+            <div class="progress_per" data-text="100">100</div>
+          </div>
+        </div>
+        <div class="progress_item">
+          <h4 class="skill-title"><h3>Collaboration</h3></h4>
+          <div class="progress_bar">
+            <div class="progress_per" data-text="100">100</div>
+          </div>
+        </div>
+      </div> 
+    </section><br><br>
+    <section id="projects">
+      <h2 style="color:orangered">Projects</h2>
+      <div class="gallery">
+          <a target="_blank" href="https://github.com/yourusername">
+            <img src="Project 1.jpg" alt="project1">
+        </a>
+        <div class="description"><h3>Human Stress Detection in and through sleep using Machine Learning</h3></div>
+    </div>
+    <div class="gallery">
+          <a target="_blank" href="https://github.com/yourusername">
+            <img src="Project 2.jpg" alt="project2">
+        </a>
+        <div class="description"><h3>Bus Ticket Booking System with JDBC and MySql</h3></div>
+    </div>
+    </section>
+    <section id="contact">
+      <h2 style="color:orangered">Contact Me</h2><br>
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Hyderabad, India</p><br>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (+91)7993414695</p><br>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: snehasdas11@mail.com</p>
+    </div><br><br>
+      <h3 style="color:orangered">Let's get in touch, <span style="color:black">feel free to reach out!!</span></h3><br>
+      <form>
+        <input type="text" placeholder="Your Name"><br><br>
+        <input type="email" placeholder="Your Email"><br><br>
+        <textarea placeholder="Your Message"></textarea><br><br>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main><br><br><br>
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+    </div><br>
+    <p>&copy; 2024 THANK YOU, SNEHA S DAS</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
